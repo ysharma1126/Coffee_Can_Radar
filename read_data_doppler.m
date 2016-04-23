@@ -6,6 +6,15 @@
 
 %Process Doppler vs. Time Intensity (DTI) plot
 
+%For Doppler vs Time:
+% 1) Bias Vtune to CW (or some DC value where you want to center frequency)
+% 2) Connect to audio input of laptop
+% 3) Open 'Sync Pulse Inhibit' switch 
+% 4) Deploy radar near moving targets
+% 5) Record .wav file of input audio
+% 6) Process using this script!
+
+
 %NOTE: set Vtune to 3.2V to stay within ISM band and change fc to frequency
 %below
 
