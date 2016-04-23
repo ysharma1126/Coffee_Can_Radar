@@ -6,6 +6,14 @@
 
 %Process Range vs. Time Intensity (RTI) plot
 
+%For Ranging vs Time:
+% 1) Reconnect Vtune to modulator output
+% 2) Setup ramp duration to 20 ms, adjust magnitude to span desired transmit bandwidth. 
+% 4) Deploy radar
+% 5) Record .wav file
+% 6) Process using this script!
+
+
 %NOTE: set up-ramp sweep from 2-3.2V to stay within ISM band
 %change fstart and fstop bellow when in ISM band
 
