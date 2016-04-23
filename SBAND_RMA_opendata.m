@@ -8,6 +8,12 @@
 %Range Migration Algorithm from ch 10 of Spotlight Synthetic Aperture Radar
 %Signal Processing Algorithms, Carrara, Goodman, and Majewski
 
+% For SAR Imaging:
+% 1) Record .wav continuously
+% 2) Acquire range profiles over 2" increments over 8-10' of aperture length
+% 3) Use Toggle switch to blank L sync channel, indicating change in radar position
+% 4) Process using this script!
+
 %NOTE: set up-ramp sweep from 2-3.2V to stay within ISM band
 %change fstart and fstop bellow when in ISM band
 
